@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* small custom utilities */
+/* body {
+  @apply bg-gray-50 text-gray-900;
+} */
+
+/* make images nicely fit in cards */
+.book-cover {
+  @apply w-full h-56 object-cover rounded-md;
+}
+
+/* src/index.css */
+body {
+  @apply bg-gradient-to-br from-green-50 via-green-100 to-green-200 text-gray-900;
+}
